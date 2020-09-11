@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mastery-ui"
+    }
+  },
+  "defaultProject": "mastery-ui",
+  "cli": {
+    "analytics": "6679795e-56fc-4f1d-a0f9-c83da05dab62"
+  }
 }
