@@ -1,1 +1,6 @@
-<p>home works!</p>
+<h2 class="heading">
+  {{ (express$ | async)?.status }}
+</h2>
+<div *ngFor="let level of levels$ | async">
+  {{ level.level }} - {{ level.exp }}
+</div>
